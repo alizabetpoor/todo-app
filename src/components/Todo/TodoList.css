@@ -1,0 +1,63 @@
+.todolist {
+  margin-top: 1.5rem;
+  width: 40rem;
+  padding: 20px;
+  background-color: #bfdbfe;
+  border-radius: 5px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 20rem;
+  flex-direction: column;
+}
+.todo {
+  background-color: #eff6ff;
+  padding: 10px 30px;
+  border-radius: 15px;
+  width: 400px;
+  height: 60px;
+  margin: 10px 0px;
+  font-size: 18px;
+  font-weight: 800;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo p {
+  cursor: pointer;
+  /* background-color: #fde68a; */
+  width: 100px;
+  /* border-radius: 10px; */
+}
+.todo input {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: right;
+  border: 2px solid #ddd6fe;
+  padding: 2px 7px;
+  border-radius: 5px;
+}
+.todo input:focus {
+  outline: 3px solid #8b5cf6;
+  border: 0;
+}
+.icon {
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin: 0 4px;
+  font-size: 13px;
+  color: #f3f4f6;
+}
+.remove-icon {
+  background-color: #db2777;
+}
+.edit-icon {
+  background-color: #059669;
+}
+.completed p {
+  text-decoration: line-through;
+  width: 100%;
+  color: rgb(206, 206, 206);
+}
